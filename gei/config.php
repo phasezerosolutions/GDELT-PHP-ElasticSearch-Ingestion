@@ -10,8 +10,22 @@
  */
 
 /**
- * @param	$elasticsearch The location of your elasticsearch installation.
+ *	@param	$application_name	The application name for your application.
  */
-$elasticsearch = "http://127.0.0.1:9200";
+$application_name = "GDELT-PHP-ElasticSearch-Ingestion";
 
+/**
+ *	@param $google_path	Path to the Google PHP library
+ */
+$google_path = "../google/src/Google/";
+
+/**
+ *	@param	$google_app_key	The application key to access Google BigQuery.
+ */
+$google_app_key = "";
+
+/**
+ *	@param	$elasticsearch The location of your elasticsearch installation.
+ */
+$elasticSearchPath = "http://127.0.0.1:9200";
 ?>
